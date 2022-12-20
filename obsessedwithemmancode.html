@@ -21,6 +21,11 @@
       scroll-behavior: smooth;
     }
   }
+		
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 @keyframes typing {
     from { width: 0 }
@@ -244,7 +249,8 @@ section {
   }
 
   .gune-photos img, .emman-photos img {
-    width: 215px;
+    max-width: 250px;
+    min-width: 100px;
     border-radius: 10px;
   }
 
