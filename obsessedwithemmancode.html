@@ -415,7 +415,7 @@ section {
                                 <textarea id="comments" rows="3" cols="30" placeholder="I love you... I'll do anything for you... hehehe" required></textarea>
                                 </div>
                         </div>
-                        <input type="submit" value="Submit" id="submit" />
+                        <input type="submit" value="Submit" id="submit" onClick="showMessage()"/>
                     </form>
                     </div>
              </section>
@@ -450,6 +450,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+ function showMessage() {
+   alert("Okay baby thank you for submitting the form. Love you! Muwahhhh");
+            }
              </script>
         </body>
     </html>
